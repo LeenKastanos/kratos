@@ -1,0 +1,50 @@
+def func1(arg1, arg2):
+    var5 = func2(arg2, arg1)
+    var10 = func3(arg1, arg2)
+    var15 = func4(var5, arg1)
+    var20 = func5(var5, var10)
+    var25 = func6(var15, arg1)
+    var26 = (var10 & arg2) - arg2 + -525
+    var27 = arg1 + (arg1 | var15)
+    var28 = arg2 - (var15 & arg1) & var15
+    var29 = (arg2 & var25 + var20) - var27
+    var30 = var27 - arg2 ^ var15 - var26
+    var31 = ((-254 ^ var30) ^ var28) | var28
+    var32 = var29 - (var31 + (var26 & arg1))
+    var33 = var31 + var15
+    var34 = var31 ^ var25
+    var35 = (var29 + -1394990277) ^ -457
+    var36 = -13 | arg1 | var5 | arg1
+    result = var31 | var33
+    return result
+def func6(arg21, arg22):
+    var23 = 0
+    for var24 in range(21):
+        var23 += var24 - var23 - arg22
+    return var23
+def func5(arg16, arg17):
+    var18 = 0
+    for var19 in range(32):
+        var18 += -8 - arg16
+    return var18
+def func4(arg11, arg12):
+    var13 = 0
+    for var14 in range(14):
+        var13 += (arg11 & arg12) ^ arg12
+    return var13
+def func3(arg6, arg7):
+    var8 = 0
+    for var9 in range(38):
+        var8 += (var8 & arg6) + var8
+    return var8
+def func2(arg3, arg4):
+    result = -362535977 ^ arg4 | 661
+    return result
+if __name__ == "__main__":
+    print 'prog_size: 5'
+    print 'func_number: 7'
+    print 'arg_number: 37'
+    for i in xrange(25000):
+        x = 5
+        x = func1(x, i)
+        print x,
